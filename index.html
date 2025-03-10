@@ -7,165 +7,156 @@
 	
 	<body>
 	<h1> Registration Form </h1>
-		<form method="" action="">
-			<fieldset>
-				<legend> Private Data </legend>
-				
-				<table>
-					<tr>
-						<th> <label for="name"> Name </label> </th>
-						<td> <input type="text" name="nama" id="name" autofocus placeholder="Your Name"> </td>
-					
-					<tr>
-						<th> <label for="ID"> ID </label> </th>
-						<td> <input type="number" name="nim" id="ID" value="0831" readonly> </td>
-				
-				
-					<tr>
-						<th> <label for="email"> Email </label> </th>
-						<td> <input type="Email" name="email"> </td>
-					</tr>
-				
-					<tr>
-						<th> <label for="Gender"> Gender </label> </th>
-						<td> 
-							<input type="radio" name="gender" value="male" id="Gender"> Male
-							<input type="radio" name="gender" value="female"> Female 
-						</td> 
-					
-					<tr>
-						<th> <label for="date"> Birth Date </label> </th>
-						<td> 
-							<input type="date" name="datebirth" id="date">
-							<input type="datetime-local" name="local" id="date"> 
-						</td>
-					</tr>
-				
-					<tr>
-						<th> <label for="hobby"> Hobby </label> </th>
-						<td> 
-							<input type="checkbox" name="hobby" value="read" id="hobby"> Reading 
-							<input type="checkbox" name="hobby" value="write" id="hobby"> Writing 
-							<input type="checkbox" name="hobby" value="yap" id="hobby"> Yapping 
-						</td>
-					</tr>
-				
-					<tr>
-						<th> <label for="pass"> Password </label> </th>
-						<td> <input type="Password" name="pass" id="pass"> </td>
-					</tr>
-				
-					<tr>
-						<th> <label for="img"> Photo </label> </th>
-						<td> <input type="file" name="photo" id="img" accept="image/png"> </td>
-					</tr>
-				
-					<tr>
-						<th> <label for="col"> Color </label> </th>
-						<td> <input type="color" name="col" id="col"> </td>
-					</tr>
-					
-					<tr>
-						<th> <label for="address"> Address </th>
-						<td> <textarea name="address" id="address" cols="30" rows="5"></textarea>
-					</tr>
-					
-					<tr>
-						<th> <label for="city"> City </th>
-						<td> 
-							<select name="city" id="city">
-								<option value="NY"> New York </option>
-								<option value="LA"> Los Angelese </option>
-								<option value="WDC"> Washington D.C </option>
-						</td>
-					</tr>
-					
-					<tr>
-						<td colspan="2" align="center"> <input type="submit"> </td>
-					</tr>
-				
-				</table>
-			</fieldset>
-			
-			<fieldset>
-				<legend> Parent Details </legend>
-				
-				<table>
-					<tr>
-						<th> <label for="name"> Name </label> </th>
-						<td> <input type="text" name="nama" id="name" autofocus placeholder="Your Name"> </td>
-					
-					<tr>
-						<th> <label for="ID"> ID </label> </th>
-						<td> <input type="number" name="nim" id="ID" value="0831" readonly> </td>
-				
-				
-					<tr>
-						<th> <label for="email"> Email </label> </th>
-						<td> <input type="Email" name="email"> </td>
-					</tr>
-				
-					<tr>
-						<th> <label for="Gender"> Gender </label> </th>
-						<td> 
-							<input type="radio" name="gender" value="male" id="Gender"> Male
-							<input type="radio" name="gender" value="female"> Female 
-						</td> 
-					
-					<tr>
-						<th> <label for="date"> Birth Date </label> </th>
-						<td> 
-							<input type="date" name="datebirth" id="date">
-							<input type="datetime-local" name="local" id="date"> 
-						</td>
-					</tr>
-				
-					<tr>
-						<th> <label for="hobby"> Hobby </label> </th>
-						<td> 
-							<input type="checkbox" name="hobby" value="read" id="hobby"> Reading 
-							<input type="checkbox" name="hobby" value="write" id="hobby"> Writing 
-							<input type="checkbox" name="hobby" value="yap" id="hobby"> Yapping 
-						</td>
-					</tr>
-				
-					<tr>
-						<th> <label for="pass"> Password </label> </th>
-						<td> <input type="Password" name="pass" id="pass"> </td>
-					</tr>
-				
-					<tr>
-						<th> <label for="img"> Photo </label> </th>
-						<td> <input type="file" name="photo" id="img" accept="image/png"> </td>
-					</tr>
-				
-					<tr>
-						<th> <label for="col"> Color </label> </th>
-						<td> <input type="color" name="col" id="col"> </td>
-					</tr>
-					
-					<tr>
-						<th> <label for="address"> Address </th>
-						<td> <textarea name="address" id="address" cols="30" rows="5"></textarea>
-					</tr>
-					
-					<tr>
-						<th> <label for="city"> City </th>
-						<td> 
-							<select name="city" id="city">
-								<option value="NY"> New York </option>
-								<option value="LA"> Los Angelese </option>
-								<option value="WDC"> Washington D.C </option>
-						</td>
-					</tr>
-					
-					<tr>
-						<td colspan="2" align="center"> <input type="submit"> </td>
-					</tr>
-				
-				</table>
-			</fieldset>
 		
+		<center>
+		<form method="" action="">
+			<table>
+				<tr>
+					<td valign="top">
+						<fieldset>
+							<legend> Private Data </legend>
+							
+							<table>
+								<tr>
+									<td> <label for="name"> Name </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="nama" id="name" autofocus placeholder="Your Name"> </td>
+								</tr>
+							
+								<tr>
+									<td> <label for="email"> Email </label> </td>
+									<td> : </td>
+									<td> <input type="Email" name="email" placeholder="example@email.com"> </td>
+								</tr>
+							
+								<tr>
+									<td> <label for="phone"> Phone Number </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="phone" id="phone"> </td> 
+								</tr>
+								
+								<tr>
+									<td> <label for="address"> Address </td>
+									<td> : </td>
+									<td> <textarea name="address" id="address" cols="50" rows="8"></textarea>
+								</tr>
+								
+								<tr>
+									<td> <label for="date"> Birth Date </label> </td>
+									<td> : </td>
+									<td> <input type="date" name="datebirth" id="date"> </td>
+								</tr>
+							
+								<tr>
+									<td> <label for="gen"> Gender </label> </td>
+									<td> : </td>
+									<td>
+										<input type="radio" name="gen" value="male" id="gen"> Male
+										<input type="radio" name="gen" value="female" id="gen"> Female 
+									</td>
+								</tr>
+								
+								<tr>
+									<td> <label for="rel"> Religion </td>
+									<td> : </td>
+									<td> 
+										<select name="rel" id="rel">
+											<option value="IS"> ISLAM </option>
+											<option value="NIS"> NONIS </option>
+									</td>
+								</tr>
+								
+								<tr>
+									<td> <label for="edu"> Last Education </td>
+									<td> : </td>
+									<td> 
+										<input type="radio" name="edu" value="shs" id="edu"> Senior High School
+										<input type="radio" name="edu" value="d3" id="edu"> Diploma
+										<input type="radio" name="edu" value="s1" id="edu"> Bachelor
+									</td>
+								</tr>
+							
+								<tr>
+									<td> <label for="img"> Photo </label> </td>
+									<td> : </td>
+									<td> <input type="file" name="photo" id="img" accept="image/png"> </td>
+								</tr>
+							
+								<tr>
+									<td> <label for="cv"> Curriculum Vitae </label> </td>
+									<td> : </td>
+									<td> <input type="file" name="cv" id="cv" accept="file/pdf"> </td>
+								</tr>
+							</table>
+							
+						</fieldset>
+					</td>
+					
+					<td valign="top">
+						<fieldset>
+							<legend> Parent Details </legend>
+							
+							<table>
+								<tr>
+									<td> <label for="father"> Father's Name </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="father" id="father" placeholder="Your Father's Name"> </td>
+								</tr>
+								
+								<tr>
+									<td> <label for="f_job"> Occupation </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="f_job" name="f_job" id="f_job" placeholder="Your Father's Occupation"> </td>
+								</tr>
+								
+								<tr>
+									<td> <label for="f_address"> Father's Address </td>
+									<td> : </td>
+									<td> <textarea name="f_address" id="f_address" cols="50" rows="5"></textarea>
+								</tr>
+								
+								<tr>
+									<td> <label for="f_phone"> Father's Phone Number </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="f_phone" id="f_phone"> </td> 
+								</tr>
+								
+								<tr>
+									<td> <label for="mother"> Mother's Name </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="mother" id="mother" placeholder="Your Mother's Name"> </td>
+								</tr>
+								
+								<tr>
+									<td> <label for="m_job"> Occupation </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="m_job" name="m_job" id="m_job" placeholder="Your Mother's Occupation"> </td>
+								</tr>
+								
+								<tr>
+									<td> <label for="m_address"> Mother's Address </td>
+									<td> : </td>
+									<td> <textarea name="m_address" id="m_address" cols="50" rows="5"></textarea>
+								</tr>
+								
+								<tr>
+									<td> <label for="m_phone"> Mother's Phone Number </label> </td>
+									<td> : </td>
+									<td> <input type="text" name="m_phone" id="m_phone"> </td> 
+								</tr>
+								
+								<tr>
+									<td>
+										<input type="submit" value="Save">
+										<input type="submit" value="Reset">
+									</td>
+							
+							</table>
+						</fieldset>
+					</td>
+				</tr>
+			</table>
 		</form>
+		</center>
 	</body>
 </html>
