@@ -3,6 +3,47 @@
 	<head>
 		<title> Form </title>
 		<meta name="aouthor" content="Jev">
+		<style>
+			* {
+				font-family: "Bahnschrift";
+				color: white;
+			}
+			body {
+				background-image: url("122142987_p0_master1200.jpg");
+				background-size: cover;
+			}
+			h1 {
+				color: white;
+			}
+			.private {
+				font-size: 24px;
+				color: lightblue;
+			}
+			.parents {
+				font-size: 24px;
+				color: lightblue;
+			}
+			input {
+				border: solid 0%;
+				color: black;
+				border-radius: 20px;
+			}
+			input[type="submit"] {
+				color: black;
+				padding: 5px 10px 5px 10px;
+				border: white;
+			}
+			textarea {
+				border: solid;
+				border-radius: 20px;
+			}
+			select, option {
+				color: black;
+				padding: 2px 10px 0px 10px;
+				border-radius: 20px;
+			}
+			
+		</style>
 	</head>
 	
 	<body>
@@ -14,7 +55,7 @@
 				<tr>
 					<td valign="top">
 						<fieldset>
-							<legend> Private Data </legend>
+							<legend class="private"> Private Data </legend>
 							
 							<table>
 								<tr>
@@ -94,7 +135,7 @@
 					
 					<td valign="top">
 						<fieldset>
-							<legend> Parent Details </legend>
+							<legend class="parents"> Parent Details </legend>
 							
 							<table>
 								<tr>
@@ -150,6 +191,7 @@
 										<input type="submit" value="Save">
 										<input type="submit" value="Reset">
 									</td>
+								</tr>
 							
 							</table>
 						</fieldset>
